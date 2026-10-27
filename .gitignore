@@ -1,0 +1,24 @@
+# Local data, generated artifacts and credentials
+.env
+.env.*
+!.env.example
+**/.venv*/
+**/venv*/
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.py[cod]
+*.csv
+!results/multiclass/model_comparison.csv
+!results/multiclass/hyperparameter_search_sklearn.csv
+*.parquet
+*.jsonl
+*.pkl
+*.pickle
+*.joblib
+*.db
+*.sqlite*
+*.pem
+*.key
+**/outputs/
+**/.vscode/
+.DS_Store

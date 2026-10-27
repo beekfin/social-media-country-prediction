@@ -1,0 +1,7 @@
+﻿Модель,Гиперпараметры,Accuracy,macro-F1,weighted-F1,top-3 accuracy
+Most Frequent Country by City,city majority on train,0.9356,0.944,0.9379,0.9657
+Complement Naive Bayes,"{""model__alpha"": 1.0}",0.9349,0.944,0.9363,0.9648
+ExtraTreesClassifier,"{""model__n_estimators"": 60, ""model__min_samples_leaf"": 1, ""model__max_depth"": null}",0.8422,0.901,0.8579,0.9339
+SGDClassifier,"{""model__alpha"": 1e-05}",0.7014,0.5207,0.701,0.806
+Logistic Regression,"{""model__C"": 1.0}",0.6882,0.4097,0.7031,0.7744
+Most Frequent Country,strategy=most_frequent,0.1231,0.0016,0.027,0.2909

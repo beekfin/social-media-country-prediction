@@ -1,0 +1,5 @@
+﻿model,best_params,best_cv_macro_f1
+Logistic Regression,"{""model__C"": 1.0}",0.05025688560285486
+SGDClassifier,"{""model__alpha"": 1e-05}",0.4123266000113794
+Complement Naive Bayes,"{""model__alpha"": 1.0}",0.66073919874021
+ExtraTreesClassifier,"{""model__n_estimators"": 60, ""model__min_samples_leaf"": 1, ""model__max_depth"": null}",0.2887037289549348
